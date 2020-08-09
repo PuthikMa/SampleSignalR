@@ -136,10 +136,4 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\SampleSignalRMobile\SampleSignalRMobile.csproj">
-      <Project>{A90DC5B5-8885-489D-8813-E3A84A972113}</Project>
-      <Name>SampleSignalRMobile</Name>
-    </ProjectReference>
-  </ItemGroup>
 </Project>

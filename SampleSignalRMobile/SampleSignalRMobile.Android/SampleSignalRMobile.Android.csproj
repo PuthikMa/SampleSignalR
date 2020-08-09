@@ -91,11 +91,5 @@
     <AndroidResource Include="Resources\drawable\tab_about.png" />
     <AndroidResource Include="Resources\drawable\tab_feed.png" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SampleSignalRMobile\SampleSignalRMobile.csproj">
-      <Project>{A90DC5B5-8885-489D-8813-E3A84A972113}</Project>
-      <Name>SampleSignalRMobile</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
